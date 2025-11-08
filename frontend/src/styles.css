@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.auth-container, .dashboard { max-width: 900px; margin: 0 auto; }
+input, textarea, select { display: block; width: 100%; margin: 8px 0; padding: 8px; }
+button { padding: 8px 12px; cursor: pointer; }
+.task-card { border: 1px solid #ddd; padding: 10px; margin: 8px 0; border-radius: 6px; }
+.task-card.done { opacity: 0.6; text-decoration: line-through; }
+.attention { color: red; font-weight: bold; }
+.filters label { display:block; margin-bottom:8px; }
+header { display:flex; justify-content:space-between; align-items:center; }
+main { display:flex; gap:20px; margin-top:20px; }
+.left { flex: 1; }
+.right { flex: 2; }
+.error { color: red; margin-bottom: 8px; }
